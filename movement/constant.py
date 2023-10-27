@@ -1,6 +1,7 @@
 import os
-# change this data_dir for personal path
-if os.environ['HOME'] == '/home/neil':
-    data_dir = '/home/neil/projects/nba-movement-data'
-else:
-    raise Exception("Unspecified data_dir, unknown environment")
+
+package_dir = os.path.dirname(os.path.abspath(__file__))
+data_dir = os.path.join(package_dir, "../")
+
+if not os.path.exists(data_dir):
+    raise Exception(f"Data directory not found: {data_dir}")
