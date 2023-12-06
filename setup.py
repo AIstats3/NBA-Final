@@ -9,7 +9,7 @@ config = {
     "author_email": "sealneaward@gmail.com",
     "version": "0.0.1",
     "packages": find_packages(),
-    "install_requires": ["pandas", "tqdm", "matplotlib"],
+    "install_requires": ["pandas", "tqdm", "matplotlib", "seaborn", "numpy", "scipy", "mpl_toolkits"],
     "name": "movement",
 }
 
