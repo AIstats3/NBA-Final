@@ -4,6 +4,8 @@ Ever since the nba stopped public access of their movement data, I though it wou
 
 Credit: [@neilmj](https://github.com/neilmj/BasketballData)
 
+##Remove all zip files excluding 01.02.2016.HOU.at.SAS , 01.03.2016.CHI.at.TOR , 12.25.2015.CLE.at.GSW, before proceeding with Data Setup
+
 ## Data Setup
 
 1.To unzip the `7z` files, ensure `7z` is installed on your computer first.
